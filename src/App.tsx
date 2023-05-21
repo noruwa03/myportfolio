@@ -396,10 +396,10 @@ function App() {
           <h1 className="lg:text-2xl text-lg  font-normal dark:font-medium dark:text-red-300 text-red-400 lg:mb-8 mb-2">
             Hi, my name is
           </h1>
-          <h2 className="lg:text-7xl sm:text-5xl  text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-purple-600 dark:text-[#ccd6f6] font-extrabold lg:my-2 my-0">
+          <h2 className="lg:text-7xl sm:text-5xl  text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-purple-600 dark:text-[#ccd6f6] font-extrabold lg:my-2 my-0">
             Obaseki Noruwa.
           </h2>
-          <h3 className="lg:text-6xl sm:text-5xl text-3xl text-indigo-800 dark:text-[#8892b0] font-extrabold lg:my-0 my-0">
+          <h3 className="lg:text-6xl sm:text-5xl text-4xl text-indigo-800 dark:text-[#8892b0] font-extrabold lg:my-0 my-0">
             Creative tech enthusiast.
           </h3>
           <p className="lg:w-3/5 w-5/5 mt-8 sm:mb-10  mb-14  lg:text-lg text-base text-slate-700 dark:text-gray-400 font-medium">
