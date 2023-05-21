@@ -4,6 +4,10 @@ import MyImage from "./assets/images/Obaseki_Noruwa.jpg";
 import Haraka from "./assets/images/haraka.png";
 import Ecolabz from "./assets/images/ecolabz.png";
 
+
+function getImageUrl(name: string) {
+  return new URL(`./assets/images/${name}`, import.meta.url).href;
+}
 import { useRef, useState, useEffect } from "react";
 
 function App() {
@@ -726,10 +730,7 @@ function App() {
           </h1>
           <div className="grid sm:grid-cols-8 grid-cols-4 gap-x-8 lg:gap-y-20 gap-y-8 items-center">
             <div className="sm:col-span-6 col-span-4">
-              <img
-                src={"src/assets/images/ecommerce_app.png"}
-                alt="ShopperCart"
-              />
+              <img src={getImageUrl("ecommerce_app.PNG")} alt="ShopperCart" />
             </div>
             <div className="sm:col-span-2 col-span-4">
               <h2 className="lg:text-4xl text-2xl  text-slate-800 dark:text-white font-bold">
@@ -768,7 +769,7 @@ function App() {
             </div>
 
             <div className="sm:col-span-6 col-span-4">
-              <img src={"src/assets/images/draft_blog.png"} alt="DraftBlog" />
+              <img src={getImageUrl("draft_blog.PNG")} alt="DraftBlog" />
             </div>
             <div className="sm:col-span-2 col-span-4">
               <h2 className="lg:text-4xl text-2xl  text-slate-800 dark:text-white font-bold">
@@ -809,7 +810,7 @@ function App() {
 
             <div className="sm:col-span-6 col-span-4">
               <img
-                src={"src/assets/images/dictionary_app.png"}
+                src={getImageUrl("dictionary_app.PNG")}
                 alt="DictionaryApp"
               />
             </div>
@@ -850,7 +851,7 @@ function App() {
             </div>
 
             <div className="sm:col-span-6 col-span-4">
-              <img src={"src/assets/images/todo_app.png"} alt="TodoApp" />
+              <img src={getImageUrl("todo_app.PNG")} alt="TodoApp" />
             </div>
             <div className="sm:col-span-2 col-span-4">
               <h2 className="lg:text-4xl text-2xl  text-slate-800 dark:text-white font-bold">
