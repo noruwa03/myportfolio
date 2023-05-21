@@ -738,6 +738,13 @@ function App() {
               <p className="lg:text-base text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
                 Ecommerce web app created with tailwindcss and firebase.
               </p>
+              <p className="lg:text-sm text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
+                Demo Account Admin - admin.shoppercart@demo.com, testing12345
+              </p>
+              <p className="lg:text-sm text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
+                Demo Account Customer - customer.shoppercart@demo.com,
+                testing12345
+              </p>
               <div className="mt-4 flex space-x-8">
                 <a
                   href="https://ecommerce-firebase-sigma.vercel.app/"
