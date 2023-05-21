@@ -435,7 +435,7 @@ function App() {
                 effective and scalable products.
               </p>
               <p className="lg:text-lg  sm:text-base text-sm text-slate-600 dark:text-gray-400 font-medium mb-4">
-                I have experience implementing links, tools and third party APIs
+                I have experience implementing links, tools, third party APIs
                 into web designs and i can prepare documents and keep accurate
                 daily reports. I have excellent verbal and written skills that
                 make it easy to understand information and to articulate my
@@ -630,7 +630,7 @@ function App() {
               >
                 Ecolabz
               </a>
-              <p className="lg:text-lg text-base  text-slate-600 dark:text-gray-400 font-normal mt-2 mb-4">
+              <p className="lg:text-lg text-base  text-slate-600 dark:text-gray-400 font-medium mt-2 mb-4">
                 Frontend Engineer @ Ecolabz
                 <span className="block lg:text-base text-sm font-semibold text-indigo-700 dark:text-[#ccd6f6]">
                   June 2022 - Present
@@ -641,8 +641,7 @@ function App() {
                   <div>
                     <h4 className="lg:text-base text-sm  text-slate-600 dark:text-gray-400 font-medium">
                       Collaborated with the ui/ux designer to build the website,
-                      Write modern, maintainable code for ecolabz web projects
-                      projects.
+                      write modern, maintainable code for ecolabz web projects.
                     </h4>
                   </div>
                   <div>
@@ -727,8 +726,8 @@ function App() {
           <h1 className="lg:text-3xl text-2xl  font-bold text-indigo-800 dark:text-[#ccd6f6] mb-8">
             Things I've Built
           </h1>
-          <div className="grid sm:grid-cols-8 grid-cols-4 gap-x-8 lg:gap-y-20 gap-y-8 items-center">
-            <div className="sm:col-span-6 col-span-4">
+          <div className="grid md:grid-cols-8 grid-cols-4 gap-x-8 lg:gap-y-24 gap-y-8 items-center">
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-0">
               <img src={getImageUrl("ecommerce_app.PNG")} alt="ShopperCart" />
             </div>
             <div className="sm:col-span-2 col-span-4">
@@ -738,10 +737,10 @@ function App() {
               <p className="lg:text-base text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
                 Ecommerce web app created with tailwindcss and firebase.
               </p>
-              <p className="lg:text-sm text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
+              <p className="lg:text-sm text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3 break-words">
                 Demo Account Admin - admin.shoppercart@demo.com, testing12345
               </p>
-              <p className="lg:text-sm text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
+              <p className="lg:text-sm text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3 break-words">
                 Demo Account Customer - customer.shoppercart@demo.com,
                 testing12345
               </p>
@@ -797,7 +796,7 @@ function App() {
               </div>
             </div>
 
-            <div className="sm:col-span-6 col-span-4">
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-12">
               <img src={getImageUrl("draft_blog.PNG")} alt="DraftBlog" />
             </div>
             <div className="sm:col-span-2 col-span-4">
@@ -860,7 +859,7 @@ function App() {
               </div>
             </div>
 
-            <div className="sm:col-span-6 col-span-4">
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-12">
               <img
                 src={getImageUrl("dictionary_app.PNG")}
                 alt="DictionaryApp"
@@ -925,7 +924,7 @@ function App() {
               </div>
             </div>
 
-            <div className="sm:col-span-6 col-span-4">
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-12">
               <img src={getImageUrl("todo_app.PNG")} alt="TodoApp" />
             </div>
             <div className="sm:col-span-2 col-span-4">
@@ -987,7 +986,7 @@ function App() {
               </div>
             </div>
 
-            <div className="sm:col-span-6 col-span-4">
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-12">
               <img src={getImageUrl("nft_site.png")} alt="NFT" />
             </div>
             <div className="sm:col-span-2 col-span-4">
