@@ -890,7 +890,7 @@ function App() {
             </div>
 
             <div className="sm:col-span-6 col-span-4">
-              <img src={"src/assets/images/nft_site.png"} alt="NFT" />
+              <img src={getImageUrl("nft_site.png")} alt="NFT" />
             </div>
             <div className="sm:col-span-2 col-span-4">
               <h2 className="lg:text-4xl text-2xl  text-slate-800 dark:text-white font-bold">
