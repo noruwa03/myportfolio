@@ -392,7 +392,7 @@ function App() {
           </ul>
         </div>
 
-        <section id="" className="lg:pt-16 pt-24 pb-16 lg:px-48 sm:px-8 px-6">
+        <section id="" className="lg:pt-16 pt-24 pb-20 lg:px-48 sm:px-8 px-6">
           <h1 className="lg:text-2xl text-lg  font-normal dark:font-medium dark:text-red-300 text-red-400 lg:mb-8 mb-2">
             Hi, my name is
           </h1>
