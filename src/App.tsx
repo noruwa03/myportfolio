@@ -402,7 +402,7 @@ function App() {
           <h3 className="lg:text-6xl sm:text-5xl text-4xl text-indigo-800 dark:text-[#8892b0] font-extrabold lg:my-0 my-0">
             Creative tech enthusiast.
           </h3>
-          <p className="lg:w-3/5 w-5/5 mt-8 sm:mb-10  mb-14  lg:text-lg text-base text-slate-700 dark:text-gray-400 font-medium">
+          <p className="lg:w-3/5 w-5/5 mt-8 sm:mb-10  mb-16  lg:text-lg text-base text-slate-700 dark:text-gray-400 font-medium">
             I'm a creative web developer that design, build scaleable web
             applications. I help awesome people to build websites. I have great
             organizational and time utilization skill with a willingness to
