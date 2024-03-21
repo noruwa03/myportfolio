@@ -403,10 +403,12 @@ function App() {
             Creative tech enthusiast.
           </h3>
           <p className="lg:w-3/5 w-5/5 mt-8 sm:mb-10  mb-16  lg:text-lg text-base text-slate-700 dark:text-gray-400 font-medium">
-            I'm a creative web developer that design, build scaleable web
-            applications. I help awesome people to build websites. I have great
-            organizational and time utilization skill with a willingness to
-            learn.
+            Experienced Frontend Developer with a flair for creating elegant,
+            scalable web apps to solve interesting problems that delight
+            end-users, With over two years’ experience in both product ideation
+            and development. I am an excellence driven individual with excellent
+            communication, research, and critical thinking and leadership
+            skills.
           </p>
           <a
             href="mailto:noruwaobaseki@gmail.com"
@@ -584,21 +586,6 @@ function App() {
                       Node
                     </h4>
                   </div>
-                  <div className="flex flex-row items-center sm:space-x-3 space-x-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="12"
-                      height="12"
-                      fill="currentColor"
-                      className="bi bi-record stroke-indigo-800 dark:stroke-white"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0 1A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
-                    </svg>
-                    <h4 className="lg:text-base text-sm  text-slate-600 dark:text-gray-400  font-medium">
-                      PHP & Laravel
-                    </h4>
-                  </div>
                 </div>
               </div>
             </div>
@@ -727,6 +714,196 @@ function App() {
             Things I've Built
           </h1>
           <div className="grid md:grid-cols-8 grid-cols-4 gap-x-8 lg:gap-y-24 gap-y-8 items-center">
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-0">
+              <img src={getImageUrl("movieapp.PNG")} alt="Norw" />
+            </div>
+            <div className="sm:col-span-2 col-span-4">
+              <h2 className="lg:text-4xl text-2xl  text-slate-800 dark:text-white font-bold">
+                Movie App
+              </h2>
+              <p className="lg:text-base text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
+                Movie web application to watch movies and TV shows
+              </p>
+
+              <div className="mt-4 flex space-x-8">
+                <a
+                  href="https://norw.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    width="26"
+                    height="26"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-external-link stroke-slate-600 dark:stroke-white"
+                  >
+                    <title>External Link</title>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/noruwa03/movie-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-github stroke-slate-600 dark:stroke-white"
+                  >
+                    <title>GitHub</title>
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-0">
+              <img src={getImageUrl("kanbanapp.PNG")} alt="Norw" />
+            </div>
+            <div className="sm:col-span-2 col-span-4">
+              <h2 className="lg:text-4xl text-2xl  text-slate-800 dark:text-white font-bold">
+                Kanban
+              </h2>
+              <p className="lg:text-base text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
+                Kanban web application utilizes the browser local storage to set
+                task for your day-to-day activities.
+              </p>
+
+              <div className="mt-4 flex space-x-8">
+                <a
+                  href="https://kanban-n.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    width="26"
+                    height="26"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-external-link stroke-slate-600 dark:stroke-white"
+                  >
+                    <title>External Link</title>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/noruwa03/kanban"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-github stroke-slate-600 dark:stroke-white"
+                  >
+                    <title>GitHub</title>
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-0">
+              <img src={getImageUrl("invoiceapp.PNG")} alt="Norw" />
+            </div>
+            <div className="sm:col-span-2 col-span-4">
+              <h2 className="lg:text-4xl text-2xl  text-slate-800 dark:text-white font-bold">
+                Invoice App
+              </h2>
+              <p className="lg:text-base text-sm  font-medium text-slate-800 dark:text-gray-400 mt-3">
+                An easy to use invoice generator for businesses.
+              </p>
+
+              <div className="mt-4 flex space-x-8">
+                <a
+                  href="https://invoice-n.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    width="26"
+                    height="26"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-external-link stroke-slate-600 dark:stroke-white"
+                  >
+                    <title>External Link</title>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/noruwa03/invoice-web-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-github stroke-slate-600 dark:stroke-white"
+                  >
+                    <title>GitHub</title>
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
             <div className="sm:col-span-6 col-span-4 lg:mt-0 mt-0">
               <img src={getImageUrl("ecommerce_app.PNG")} alt="ShopperCart" />
             </div>
@@ -1178,10 +1355,8 @@ function App() {
           </h2>
           <div className="lg:w-3/5 w-5/5 mx-auto my-8">
             <p className="lg:text-lg sm:text-base text-sm font-medium  text-center text-slate-800 dark:text-gray-400 mb-14">
-              I’m currently open for a new job opportunity, If you think i can
-              add value to your company or team, my inbox is always open.
-              Whether you have a question or just want to say hi, kindly click
-              the button below and send me a message.
+              I’m currently open for a new job opportunity, kindly click the
+              button below and send me a message.
             </p>
             <div>
               <div className="flex flex-row justify-center">
